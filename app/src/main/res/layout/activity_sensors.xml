@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/sensors_layout"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sensors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_dark"/>
+
+        <Button
+            android:id="@+id/light_sensor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:onClick="lightSensor"
+            android:text="@string/light_sensor"/>
+
+        <Button
+            android:id="@+id/proximity_sensor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:onClick="proximitySensor"
+            android:text="@string/proximity_sensor"/>
+
+        <Button
+            android:id="@+id/gravity_sensor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:onClick="gravitySensor"
+            android:text="@string/gravity_sensor"/>
+
+        <Button
+            android:id="@+id/rotation_sensor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:onClick="locationSensor"
+            android:text="@string/location_sensor"/>
+    </LinearLayout>
+</ScrollView>

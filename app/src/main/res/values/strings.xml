@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android Sensors</string>
+    <string name="gravity_sensor">Gravity Sensor</string>
+    <string name="light_sensor">Light Sensor</string>
+    <string name="location_sensor">Location Sensor</string>
+    <string name="proximity_sensor">Proximity Sensor</string>
+    <string name="list_of_sensors">List of sensors</string>
+    <string name="permission_message">This sensor need your permission to get your location.</string>
+</resources>
